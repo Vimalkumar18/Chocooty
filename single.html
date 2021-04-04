@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALL Products</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--<div id="home" class="header">--> <!--HEADER BEGIN-->
+<div class="container"><!--CONTAINER BEGIN-->
+    <div class="navbar"><!--NAVBAR BEGIN-->
+        <div class="logo">
+             <a href="./index.html"><img src="images/logo.jpg" width="100px"></a>     
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./login.html">Account</li></ul>
+            </ul>
+        </nav>
+        <a href="./cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div><!--NAVBAR END-->
+     <!--CONTAINER END-->
+</div>
+<!--</div>--> <!--HEADER END-->
+<!---------------------------------------------PRODUCT SECTION-------------------------------------->
+<div style="background: radial-gradient(#fff,#ffd6d6);">
+ <div class="small-container single-product">
+     <div class="row">
+         <div class="col-2">
+             <img src="./images/choco/ooty2.jpg" width="100%" id="ProductImg">
+             <div class="small-img-row">
+                 <div class="small-img-col">
+                     <img src="./images/choco/ooty1.jpg" width="100%" class="small-img">
+                 </div>
+                 <div class="small-img-col">
+                    <img src="./images/choco/ooty2.jpg" width="100%" class="small-img" >
+                </div>
+                <div class="small-img-col">
+                    <img src="./images/choco/ooty3.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="./images/choco/ooty4.jpg" width="100%" class="small-img">
+                </div>
+             </div>
+         </div>
+         <div class="col-2">
+             <h1 style="text-align: left;">Brown Chocolate Homemade</h1>
+             <h4>Rs.150/-</h4>
+             <input type="number" value="1" min="1" max="10">
+             <a href="" class="btn">Add to Cart</a>
+             <h3>Product Details <i class="fa fa-indent"></i></h3>
+             <br>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam esse rerum sint consequuntur.</p>
+             </select>
+         </div>
+     </div>
+ </div>
+<!---Title--->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+    </div>
+</div>
+
+ <div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/choco/ooty1.jpg">
+            <h4>Brown HomeMade Chocolate</h4>
+            <div class="rating"><!--Star rating-->
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.150</p>
+        </div>
+
+        <div class="col-4">
+            <img src="./images/choco/ooty2.jpg">
+            <h4>Brown HomeMade Chocolate</h4>
+            <div class="rating"><!--Star rating-->
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>Rs.150</p>
+        </div>
+
+        <div class="col-4">
+            <img src="./images/choco/ooty3.jpg">
+            <h4>Brown HomeMade Chocolate</h4>
+            <div class="rating"><!--Star rating-->
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>Rs.150</p>
+        </div>
+
+        <div class="col-4">
+            <img src="./images/choco/ooty4.jpg">
+            <h4>Brown HomeMade Chocolate</h4>
+            <div class="rating"><!--Star rating-->
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>Rs.150</p>
+        </div>
+        <a href="./products.html" class="btn">View More</a>
+    </div>
+</div>
+</div>
+<!---------------------------FOOTER--------------->
+        <div id="contact" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h2 style="color: white; padding: 20px;">Contact Us :</h2>
+                        <div class="column">
+                            <form action="/action_page.php">
+                              <label for="fname">Name</label>
+                              <input type="text" id="Name" name="firstname" placeholder="Your name.." style="height:20px">
+                              <label for="lname">Email ID</label>
+                              <input type="text" id="lname" name="Email" placeholder="Your Email ID" style="height:20px">
+                              <label for="subject">Subject</label>
+                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                              <input type="submit" value="Submit">
+                            </form>
+                          </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <a href=""><li>Coupons</li></a>
+                           <a href=""><li>Return policy</li></a>
+                           <a href=""></a> <li>Terms and Conditions</li></a>
+                            <a href=""><li>Tourism</li></a>
+                        </ul>
+                        <a href="#home"><button class="top"><a href="#" class="fa fa-hand-o-up" style="font-size:35px; padding: 50px; color:rgb(255, 255, 255)"></a></button></a>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow us</h3>
+                        <ul>
+                           <li> <a href="#" class="fa fa-facebook"></a></li>
+                            <li> <a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-instagram"></a></li>
+                                    <li> <a href="#" class="fa fa-youtube-play" style="color:red"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021 -VkDesigns</p>
+            </div>
+        </div>
+</div>
+<script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else{
+                    MenuItems.style.maxHeight= "0px";
+                }
+            }
+</script>
+<!-------------------JS FOR GALLERY--------------------------->
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function(){
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function(){
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function(){
+        ProductImg.src = SmallImg[3].src;
+    }
+</script>
+</body>
+</html>
